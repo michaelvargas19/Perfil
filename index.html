@@ -1,0 +1,248 @@
+﻿<html>
+<head>
+    <title>Mi primera página</title>
+
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="Last-Modified" content="0">
+    <meta http-equiv="Cache-Control" content="no-cache, mustrevalidate">
+    
+<meta http-equiv="Pragma" content="no-cache">
+<meta name="robots" content="index">
+<meta name="robots" content="follow"/>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript" src="logic.js"></script>
+
+
+<link href='https://fonts.googleapis.com/css?family=Kirang Haerang' rel='stylesheet'>
+
+</head>
+
+
+<body>
+
+
+<div class="menu">
+    <ul class="menu">
+        <li><a href="#seccion1" >Página de Bienvenida</a></li>
+        <li><a href="#seccion2">Datos Biográficos</a></li>
+        <li><a href="#seccion3">Experiencia</a></li>
+        <li><a href="#seccion4" >Material de Interés</a></li>
+        <li><a href="#seccion5" >Chat</a></li>
+    </ul>
+
+</div>
+
+<div class="contenido">
+
+
+    <div id="seccion1" onmousemove="changeSeccion(this)" onmouseout="BackchangeSeccion(this)">
+    <br>
+    <br>
+    <br>
+    <br>
+            <h2>Página de Bienvenida</h1>
+           
+            <div class="imagenB">
+                <img src="data:image/png;base64,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"> 
+            </div>
+
+            <div>
+                <p>El principal objetivo de este canal de comunicación, es dar a conocer nuestra empresa, comunicar lo que somos y hacemos, así como los valores que fomentamos. Usted podrá encontrar aquí de una manera ágil y directa, una amplia descripción de nuestros productos y procesos así como las diversas filosofías de calidad bajo las cuales trabajamos en las áreas ambiental, procedimental y social. En esta página web, también podrá interactuar con nosotros, contactarnos, hacer preguntas y enviar sugerencia y comentarios relacionados con nuestros productos y nuestra empresa, asegurando poder atenderlo y responderle oportunamente.</p>
+            </div>
+
+            <br>
+
+            
+    </div>
+
+
+    <div id="seccion2" onmousemove="changeSeccion(this)" onmouseout="BackchangeSeccion(this)">
+    <br>
+    <br>
+    <br>
+    <br>
+            <h2>Datos Biográficos</h1>
+            <br>
+            <br>
+		<h3>Descripción:</h3>		
+		<p>Datos personales ..... </p>
+
+
+            <table>
+                <thead>
+                    <th>---</th>
+                    <th>Dato</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Nombre</td>
+                        <td>Michael Andrés Vargas</td>
+                    </tr>
+
+                    <tr>
+                            <td>Edad (años)</td>
+                            <td>20</td>
+                    </tr>
+
+                    <tr>
+                            <td>Profesion</td>
+                            <td>Ingeniero Sistemas</td>
+                    </tr>
+                    <tr>
+                            <td>Residencia</td>
+                            <td>Bogotá</td>
+                    </tr>
+
+                </tbody>
+            </table>
+    </div>
+
+    <div id="seccion3" onmousemove="changeSeccion(this)" onmouseout="BackchangeSeccion(this)">
+    <br>
+    <br>
+    <br>
+    <br>
+            <h2>Experiencia</h2>
+    		<h3>Descripción:</h3>		
+		<p>Por medio de cada uno de los siguentes enlaces, puede acceder a la información detallada segun corresponda:</p>
+    
+                <ul>
+                    
+                    <li><a href="#seccion31">Laboral</a>
+                        <ul>
+                            <li><a href="#seccion311">Profesión</a></li>
+                            <li><a href="#seccion312">Otros</a></li>
+                        </ul>
+                    
+                    </li>
+                    <li><a href="#seccion32">Estudios</a></li>
+                    <li><a href="#seccion33">Premios</a></li>
+                    <li><a href="#seccion34">Producción intelectual</a></li>
+                </ul>
+            <br>
+            <br>
+            <br>
+
+            <div class="experiencia" id="seccion31">
+                <h3>Laboral</h3>
+                
+                <div id="seccion311">
+                    <h4>Profesión</h4>
+
+                    <ul>
+                        <li>Monitor de PC</li>
+                        <li>Monitor de POO</li>
+                        <li>Monitor de PA</li>
+                    </ul>
+                </div>
+
+                <div id="seccion312">
+                    <h4>Otros</h4>
+                    
+                    <ul>
+                        <li>Oficios varios</li>
+                        <li>Auxiliar de Cocina</li>
+                        <li>Comerciante Independiente</li>
+                    </ul>
+
+                </div>
+                
+            </div>
+
+            <div class="experiencia" id="seccion32">
+                <h3>Estudios</h3>
+
+                <ul>
+                    <li>Pregrado en Ingenieria de Sistemas</li>
+                </ul>
+            </div>
+
+            <div class="experiencia" id="seccion33">
+                <h3>Premios</h3>
+
+                <ul>
+                    <li>Campeonato Departamental de Futbol</li>
+                </ul>
+            </div>
+
+            <div class="experiencia" id="seccion34">
+                <h3>Producción intelectual</h3>
+
+                <ul>
+                    <li>Diseño, Desarrollo e Implementación de proyectos universitarios</li>
+                </ul>
+
+            </div>
+    </div>
+
+    <div id="seccion4" onmousemove="changeSeccion(this)" onmouseout="BackchangeSeccion(this)">
+    <br>
+    <br>
+    <br>
+    <br>
+            <h2>Material de Interés</h2>
+            <h3>Videos</h3>
+		<p>En esta sección encontrará algunos videos recomendados:</p>
+            <ul>
+                <li>
+                        <iframe 
+                        src="https://www.youtube.com/watch?v=GzU8KqOY8YA"></iframe>
+                        </iframe>
+                </li>
+<br>
+<br>
+                <li>
+                        <iframe 
+                        src="https://www.youtube.com/watch?v=GzU8KqOY8YA">
+                        </iframe>
+                </li>
+
+            </ul>
+
+            <h3>Enlaces</h3>
+		<p>Los siguentes enlaces son recomendaciones:</p>
+            <ol type="1">
+                <li><a href="https://www.formula1.com/">Formula 1</a></li>
+                <li><a href="https://www.youtube.com/">YouTube</a></li>
+            </ol>
+
+    </div>
+
+<br>
+        <h2 id="seccion5">Chat</h2>
+    
+<div id="chat">
+	<ul id="ulchat">
+		
+	</lu>
+
+</div>
+
+<div id="mensajes">
+        <form >
+
+
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre">
+		<output type="text" name="vnombre" id="vnombre">
+		<br>
+                <label for="texto">Texto</label>
+                <input type="text" name="texto" id="texto">
+		<output type="text" name="vtexto" id="vtexto">
+		<br>
+                <button type="button" onclick="enviarMensaje(nombre,texto)" >Enviar</button>
+
+        </form>
+
+</div>
+
+
+
+
+    
+</div>
+
+</body> 
+
+</html>

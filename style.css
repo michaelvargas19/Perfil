@@ -1,0 +1,165 @@
+body{
+
+	width: 80%;
+	height: auto;
+	vertical-align: middle;
+	margin: auto;
+	padding: 0px;
+	
+	
+
+}
+.contenido{
+	background:  #a9cce3;
+	padding: 20px;
+
+
+}
+
+.contenido > div{
+	width: 87%;
+	vertical-align: middle;
+	margin: auto;
+	padding: 0pt;
+}
+
+table{
+	vertical-align: middle;
+	margin: auto;
+	padding: 0px;
+
+}
+
+ul.menu > li {
+   display: inline; 
+   padding: 10pt;
+   font-size: 16pt;
+   border: solid;
+   border-color: black 1px;
+   background: white;
+}
+
+ul.menu > li:hover{
+    background-color: wheat; 
+}
+
+.menu{
+    position: fixed;
+    width: 100%;
+	margin-top:15px
+    
+}
+
+#mensajes{
+    width: 40%;	
+    border: solid;
+    border-color: yellowgreen;
+    background: #999;
+	float: left;
+
+
+}
+
+#chat{
+    width: 42%;
+
+    border: solid;
+    border-color: red;
+	float: left;
+}
+
+
+thead{
+    background: darkblue;
+    color: white;
+    font: bold;
+    font-size: 14pt; 
+}
+
+
+tr:nth-child(even) td {
+    background: white;
+    color: black;
+}
+
+
+tr:nth-child(odd) td {
+	background: lightgreen;
+    color: black;
+
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Kirang Haerang'; 
+    text-decoration: underline wavy blue;
+}
+
+img{
+    width: 170pt;
+    height: 70pt;
+}
+
+.imagenB{
+    margin: 10pt 10pt 10pt 10pt;
+    float:left;
+    border:solid;
+    border-color: black 1px;
+    box-shadow: 2px 2px 5px #999;
+    
+}
+	
+p{
+    text-align: justify;
+}
+
+#seccion4 li{
+
+
+	margin: 10pt 10pt 10pt 10pt;
+}
+#seccion4 ul{
+	vertical-align: middle;
+	padding: 10px;
+	margin: auto;
+	margin-bottom: 100pt;
+	list-style: none;
+	width: 350pt;
+	height: 215pt;
+
+}
+
+ol li{
+	list-style: none;
+	display: inline-BLOCK;
+}
+
+ol li::before {content: counter(li); color: green;
+  display: inline-block; width: 1em;
+  margin-left: -1em}
+
+.experiencia{
+    margin: auto;
+    margin-bottom: 20pt;
+    border: solid;
+    background: linear-gradient(-90deg,skyblue, greenyellow);
+	padding: 20pt;
+	width: 380pt;
+	display: block;
+	vertical-align: middle;
+} 
+
+
+.experiencia li{
+	list-style: none;
+
+
+}
+
+
+.experiencia li::before {content: "•"; color: red;
+  display: inline-block; width: 1em;
+  margin-left: -1em}
+
+
+  li {counter-increment: li}
+
